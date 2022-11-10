@@ -1,12 +1,21 @@
 import React, { Component } from "react";
 
-export class ClassTest extends Component {
-  state = {
-    message: "asd",
-  };
+  class ClassTest extends Component<{},{message:number}> {
+
+
+// constructor(props: string) {
+//   super(props)
+
+//   this.state = {
+//      message:0
+//   }
+//   this.handleClick = this.handleClick.bind(this)
+// }
+
 
   handleClick = () => {
-    this.setState({ message: "plplp" });
+    this.setState(prev=>({message:prev.message+1}));
+    console.log(this) 
   };
 
   render() {
