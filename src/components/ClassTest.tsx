@@ -23,8 +23,15 @@ import React, { Component } from "react";
       <>
         <button onClick={this.handleClick}>hit me</button>
         <div>{this.state.message}</div>
+<<<<<<< HEAD
         
         
+=======
+        <p>a</p>
+        <p>b</p>
+        <p>c</p>
+        <p>final</p>
+>>>>>>> 15c1782b02156cca2207f52361a378ff4127ee24
       </>
     );
   }
