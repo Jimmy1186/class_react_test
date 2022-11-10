@@ -24,10 +24,7 @@ import React, { Component } from "react";
         <button onClick={this.handleClick}>hit me</button>
         <div>{this.state.message}</div>
         <p>a</p>
-        <p>b</p>
-        <p>c</p>
-        <p>ascw</p>
-        <p>final</p>
+
       </>
     );
   }
