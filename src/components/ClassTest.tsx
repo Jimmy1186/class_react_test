@@ -25,6 +25,8 @@ import React, { Component } from "react";
         <div>{this.state.message}</div>
         <p>a</p>
         <p>b</p>
+        <p>c</p>
+        <p>final</p>
       </>
     );
   }
